@@ -1,0 +1,184 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+}
+
+#container{
+    margin:auto;
+    width:60%;
+    height:100vh;
+    background: lightseagreen;
+    padding-top: 30px;
+}
+
+#score{
+    text-align: center;
+    color:darkred;
+    font-weight: 1000;
+    font-size: 20px;
+}
+
+#scores{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+    width:80%;
+    color:blueviolet;
+    font-weight: 1000;
+    font-size: 18px;
+}
+
+#big_box{
+    margin:auto;
+    width:500px;
+    height:500px;
+    border:5px solid white;
+    display:grid;
+    grid-template-rows:  auto auto auto auto auto auto auto auto auto auto;
+    grid-template-columns:  auto auto auto auto auto auto auto auto auto auto;
+
+}
+
+.box{
+    border:1px solid white;
+}
+
+#dice{
+    width:100px;
+    background-color: gold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#random{
+    font-size: 15px;
+    font-weight: 1000;
+    text-align: center;
+}
+
+#box1{
+    background-color: rgb(144, 0, 255);
+}
+
+#player1{
+    color:red;
+}
+
+#player2{
+    color:blue;
+}
+
+img{
+    position: absolute;
+    mix-blend-mode: multiply;
+}
+
+#ladder1{
+    transform: rotate(30deg);
+    width:50px;
+    height:159px;
+    left:45%;
+    top:72%;
+}
+
+#ladder2{
+    transform: rotate(-30deg);
+    width:50px;
+    height:250px;
+    left:53.5%;
+    top:55%;
+}
+
+#ladder3{
+    transform: rotate(45deg);
+    width:50px;
+    height:80px;
+    left:57.5%;
+    top:60%;
+}
+
+#ladder4{
+    transform: rotate(20deg);
+    width: 50px;
+    height:150px;
+    left:39.5%;
+    top:45%;
+}
+
+#ladder5{
+    transform: rotate(-20deg);
+    width:50px;
+    height:140px;
+    top:33%;
+    left:36.2%;
+}
+
+#ladder6{
+    transform: rotate(45deg);
+    width:50px;
+    height:175px;
+    top:25%;
+    left:56%;
+}
+
+#snake1{
+    width:70px;
+    height:160px;
+    top:59%;
+    left:39.5%;
+}
+
+#snake2{
+    transform: rotate(45deg);
+    top:74%;
+    left:32%;
+    width:200px;   
+}
+
+#snake3{
+    height:210px;
+    top:68.7%;
+    left:48%;
+    width: 200px;
+}
+
+#snake4{
+    width:180px;
+    left:53%;
+    top:58%;
+    transform: rotate(30deg);
+}
+
+#snake5{
+    height:230px;
+    top:41%;
+    left:45%;
+    width: 190px;
+}
+
+#snake6{
+    transform:rotate(-30deg);
+    width:140px;
+    height:100px;
+    top:41%;
+    left:41.5%;
+}
+
+#snake7{
+    width:100px;
+    height:370px;
+    left:57.5%;
+    top:22.5%;
+}
+
+#snake8{
+    transform: rotate(60deg);
+    width:300px;
+    left:31%;
+    top:38%;
+}
